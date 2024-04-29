@@ -17,10 +17,7 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27996421'))
-API_HASH = environ.get('API_HASH', '5f5cb6a13ecff3d90e1ec73dc366e26d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7062467963:AAES6S5bp7-9V7OvJYESfdn9DGndBJIdqB4")
+
 
 
 # Bot settings
@@ -91,8 +88,7 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '1d12f916bb3f8e39061e93bf0d1de390631073c1')
+
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "15")
