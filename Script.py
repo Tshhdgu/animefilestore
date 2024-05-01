@@ -158,17 +158,45 @@ Nᴀᴍᴇ - {}"""
 
     I_CUDNT = """<b>sᴏʀʀʏ ɴᴏ ꜰɪʟᴇs ᴡᴇʀᴇ ꜰᴏᴜɴᴅ ꜰᴏʀ ʏᴏᴜʀ ʀᴇǫᴜᴇꜱᴛ {} 😕
 
-ᴄʜᴇᴄᴋ ʏᴏᴜʀ sᴘᴇʟʟɪɴɢ ɪɴ ɢᴏᴏɢʟᴇ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ 😃
+♨️ Reasons For Not Available
+〰️〰️〰️〰️〰️〰️〰️〰️〰️〰️
+• Spelling is Wrong
+• Typed Wrong Format
+• Not Released Yet
+• Not Available in Telegram
+• Not in Our Database
 
-ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+📮 Please Follow Request Tips!! 
+🔆 Request Tips ➠ <a href='https://t.me/c/2056340901/6'>Click Here </a> 
 
-ᴇxᴀᴍᴘʟᴇ : Uncharted or Uncharted 2022 or Uncharted En
+🔅 If You Followed All Request Tips & Rules & You Still Didn't Get What You Want, Ask For Admin's Help!
+🔆Contact Admin ➠ <a href='https://t.me/Rohankarnje'>Click Here </a> 
 
-ꜱᴇʀɪᴇꜱ ʀᴇǫᴜᴇꜱᴛ ꜰᴏʀᴍᴀᴛ 👇
+⚠️ MOViES REQUEST TiPS↷
+⊱⋅ ────────────── ⋅⊰
+✨Add Movie Release Year
 
-ᴇxᴀᴍᴘʟᴇ : Loki S01 or Loki S01E04 or Lucifer S03E24
+ 彡 Examples↷
+› IRON MAN 2008 ✅
+› IRON MAN ❌
 
-🚯 ᴅᴏɴᴛ ᴜꜱᴇ ➠ ':(!,./)</b>"""
+⚠️ SERiES REQUEST TiPS↷
+
+✨ Add Series Name, Don't Type Year! 
+
+彡 Examples↷
+› Stranger Things ✅
+› Stranger Things 2017 ❌
+
+✨ For A Specific Season of Any Series, Type Like S01, S02 etc.,
+( ɪᴛ's ᴢᴇʀᴏ ɴᴏᴛ ᴀʟᴘʜᴀʙᴇᴛ O)
+彡 Examples↷
+› Stranger Things S01 ✅
+› Stranger Things Season 1 ❌
+› Stranger Things S1 ❌
+
+💱 Don't Type Any Symbols↷
+. , ' " : - – + × ( ) ? ! @ # | = / •</b>"""
 
     I_CUD_NT = """ɪ ᴄᴏᴜʟᴅɴ'ᴛ ꜰɪɴᴅ ᴀɴʏ ᴍᴏᴠɪᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ {}.
 ᴘʟᴇᴀꜱᴇ ᴄʜᴇᴄᴋ ᴛʜᴇ ꜱᴘᴇʟʟɪɴɢ ᴏɴ ɢᴏᴏɢʟᴇ ᴏʀ ɪᴍᴅʙ..."""
@@ -177,7 +205,11 @@ Nᴀᴍᴇ - {}"""
 
     TOP_ALRT_MSG = """Cʜᴇᴄᴋɪɴɢ Fᴏʀ Mᴏᴠɪᴇ Iɴ Dᴀᴛᴀʙᴀsᴇ..."""
 
-    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️</b>"""
+    MELCOW_ENG = """<b>Hᴇʟʟᴏ {} 😍, Aɴᴅ Wᴇʟᴄᴏᴍᴇ Tᴏ {} Gʀᴏᴜᴘ ❤️
+    Here All Movies Series & Anime Collection Is Available In Multi Language...
+
+📮 Please Follow Request Tips!! 
+⚠️ Request Tips ➠ [Click Here (https://t.me/OUTFLiX/405)]</b>"""
 
     SHORTLINK_INFO = """
 
@@ -225,7 +257,11 @@ IMDb Data:
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
-Requested by : {message.from_user.mention}</b>"""
+Requested by : {message.from_user.mention}
+
+Some time poster may be wrong but be sure to click on files and check
+
+facing issues 🔆Contact Admin ➠ [Click Here (https://t.me/Rohankarnje) ]</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
@@ -721,3 +757,4 @@ Example:- /set_caption 📕 File Name: {filename}
 
 
     
+
