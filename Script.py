@@ -10,7 +10,11 @@ class script(object):
 
 ───[⚡ ʙᴏᴛ ᴅɪsᴄʟᴀɪᴍᴇʀ💀 ]───
         
-Files here are freely available or posted by others online. Original creators, if you want your files removed, contact us.</b>"""
+Files here are freely available or posted by others online. Original creators, if you want your files removed, contact us.
+
+join our group for better experience 
+
+Bot is free for everyone feel free to serach</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
