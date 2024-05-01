@@ -18,11 +18,15 @@ def is_enabled(value, default):
 
 # Bot information
 
+SESSION = environ.get('SESSION', 'Media_search')
+API_ID = int(environ.get('API_ID', '27996421'))
+API_HASH = environ.get('API_HASH', '5f5cb6a13ecff3d90e1ec73dc366e26d')
+BOT_TOKEN = environ.get('BOT_TOKEN', "7062467963:AAES6S5bp7-9V7OvJYESfdn9DGndBJIdqB4")
 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/1f855f3c3cf2caa5c77d4.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/676be2232e40b03fd39fc.jpg https://telegra.ph/file/05bd2b48c80ac05597b18.jpg https://telegra.ph/file/a8d2de355426bffd0f917.jpg https://telegra.ph/file/c54ae8fa313926d1a6199.jpg https://telegra.ph/file/5de0d666607c4add442f7.jpg https://telegra.ph/file/3243b3b4c4035259e99e8.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/1f855f3c3cf2caa5c77d4.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -38,7 +42,7 @@ auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002056340901')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
@@ -88,7 +92,8 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 # Shortlink Info
-
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '1d12f916bb3f8e39061e93bf0d1de390631073c1')
 
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "15")
