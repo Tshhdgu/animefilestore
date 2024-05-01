@@ -269,7 +269,8 @@ Requested by : {message.from_user.mention}
 
 Some time poster may be wrong but be sure to click on files and check
 
-facing issues 🔆Contact Admin ➠ [Click Here (https://t.me/Rohankarnje) ]</b>"""
+facing issues or not getting correct files seasons or episodes then
+🔆Contact Admin ➠ [ <a href='https://t.me/Rohankarnje'>Click Here</a>  ]</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
