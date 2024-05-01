@@ -6,7 +6,11 @@
 class script(object):
     START_TXT = """<b><blockquote>Hᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
-ʜɪ ɪᴀᴍ ᴀ ʟᴀᴛᴇsᴛ ᴍᴏᴠɪᴇ ᴀɴɪᴍᴇs ᴡᴇʙsᴇʀɪᴇs ᴛᴠ sʜᴏᴡs sᴇᴀʀᴄʜ ʙᴏᴛ</b>"""
+ʜɪ ɪᴀᴍ ᴀ ʟᴀᴛᴇsᴛ ᴍᴏᴠɪᴇ, ᴀɴɪᴍᴇs, ᴡᴇʙsᴇʀɪᴇs, ᴛᴠ sʜᴏᴡs sᴇᴀʀᴄʜ ʙᴏᴛ
+
+───[⚡ ʙᴏᴛ ᴅɪsᴄʟᴀɪᴍᴇʀ💀 ]───
+        
+Files here are freely available or posted by others online. Original creators, if you want your files removed, contact us.</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
