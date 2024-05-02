@@ -217,7 +217,7 @@ Nᴀᴍᴇ - {}"""
     Here All Movies Series & Anime Collection Is Available In Multi Language...
 
 📮 Please Follow Request Tips!! 
-⚠️ Request Tips ➠ [Click Here (https://t.me/OUTFLiX/405)]</b>"""
+⚠️ Request Tips ➠ <a href='https://t.me/c/2056340901/6'>Click Here </a> </b>"""
 
     SHORTLINK_INFO = """
 
