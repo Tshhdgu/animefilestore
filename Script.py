@@ -246,7 +246,10 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b> Size ⚙️: {file_size}</b>""" 
+<b> Size ⚙️: {file_size}
+
+❗Use VlC player for better experience 
+✨VLC player Link  [<a href='https://play.google.com/store/apps/details?id=org.videolan.vlc'>Click Here</a>] </b>""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
