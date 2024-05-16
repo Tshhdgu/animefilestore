@@ -252,9 +252,6 @@ Nᴀᴍᴇ - {}"""
 ✨VLC player Link  [<a href='https://play.google.com/store/apps/details?id=org.videolan.vlc'>Click Here</a>] </b>""" 
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
-
-IMDb Data:
 
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
@@ -262,18 +259,8 @@ IMDb Data:
 🌟 Rating: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)
 ☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : <code>{countries}</code>
 
-
-⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
-
-Requested by : {message.from_user.mention}
-
-Some time poster may be wrong but be sure to click on files and check
-
-facing issues or not getting correct files seasons or episodes then
-🔆Contact Admin ➠ [ <a href='https://t.me/Rohankarnje'>Click Here</a>  ]</b>"""
+</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
