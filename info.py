@@ -17,41 +17,44 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-
+SESSION = environ.get('SESSION', 'Media_search')
+API_ID = int(environ.get('API_ID', '22427155'))
+API_HASH = environ.get('API_HASH', 'e878d26d7912064d53f197474e72d4c5')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6319967009:AAEamct86fMyd0SwvwtI7tLmAxn9yvVJrQ0")
 
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/676be2232e40b03fd39fc.jpg https://telegra.ph/file/05bd2b48c80ac05597b18.jpg https://telegra.ph/file/a8d2de355426bffd0f917.jpg https://telegra.ph/file/c54ae8fa313926d1a6199.jpg https://telegra.ph/file/5de0d666607c4add442f7.jpg https://telegra.ph/file/3243b3b4c4035259e99e8.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://telegra.ph/file/e23b8e844a0171e526986.jpg https://telegra.ph/file/17b4c4313e5ae90d36a6c.jpg https://telegra.ph/file/f7a710f72caf328c0c416.jpg https://telegra.ph/file/9cf0a2c4395f9a706c99a.jpg https://telegra.ph/file/bab1756bb2a99fffb40f6.jpg https://telegra.ph/file/a4bd62f04158e59be2d8a.jpg https://telegra.ph/file/114c280222bd5826202b1.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/95d56695d3427b10e859c.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/how_to_verify_link")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/14277409f0e81928059e1.jpg")
  
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002000324538'))
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6887525311').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002142768474 -1001824425943 -1001875240118 -1001782414325 -1002065200637 -1002076334628 -1001771401142 -1002134304161 -1002129609172 -1001997311406 -1002141824931').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6887525311').split()]
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002129714094'))
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6267023743').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002093800230').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '6267023743').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL','-1002056340901' )
+auth_channel = environ.get('AUTH_CHANNEL','-1002099457899' )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002056340901')
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002099457899')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002026709764')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
-FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
+FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-1002129714094')).split()]
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://codiyoc903:R8JnDcnrsRh6wy3D@cluster0.z1avpag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_NAME = environ.get('DATABASE_NAME', "codiyoc903")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://premiumfilter:30bqtlRgaVa5huxN@cluster0.tz7y35e.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "cluster0")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'premiumfilter')
 
 # Premium And Referal Settings
-PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', True)) # Set Ture Or False
+PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
 
 # If PREMIUM_AND_REFERAL_MODE is True Then Fill Below Variable, If Flase Then No Need To Fill.
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '2')) # number of referal count
@@ -112,7 +115,7 @@ QUALITIES = ["360p", "480p", "720p", "1080p", "1440p", "2160p"]
 
 
 # Online Stream and Download
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
@@ -126,7 +129,7 @@ URL = environ.get("URL", "https://sudden-lissi-ronycompany.koyeb.app/")
 
 
 # Rename Info ; If True Then Bot Rename File Else Not
-RENAME_MODE = bool(environ.get('RENAME_MODE', False)) # Set True or Flase
+RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or Flase
 
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
